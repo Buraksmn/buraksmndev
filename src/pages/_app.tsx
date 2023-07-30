@@ -8,7 +8,6 @@ import { type Session } from 'next-auth';
 import { SessionProvider } from 'next-auth/react';
 
 import { NavProvider } from '@/providers/nav-provider';
-import { api } from '@/utils/api';
 
 import '@/styles/globals.css';
 
@@ -29,4 +28,4 @@ const MyApp: NextComponentType<
   );
 };
 
-export default api.withTRPC(MyApp);
+export default MyApp;

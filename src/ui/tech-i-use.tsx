@@ -7,7 +7,6 @@ export const TechIUse = () => {
   return (
     <section className="mt-10 px-4">
       <p className="text-xl">Tech I use</p>
-
       <div className="mt-5 grid grid-cols-3 gap-2 sm:grid-cols-5">
         {techUsed.map((tech) => (
           <TechCard key={tech.title} {...tech} />

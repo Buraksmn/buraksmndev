@@ -2,10 +2,8 @@ import clsx from 'clsx';
 import { useEffect, useRef } from 'react';
 import { AiFillGithub } from 'react-icons/ai';
 import { BiMap } from 'react-icons/bi';
-import { FaDrum, FaReact } from 'react-icons/fa';
-import { GoBook } from 'react-icons/go';
+import { FaReact } from 'react-icons/fa';
 import { GrLinkedinOption } from 'react-icons/gr';
-import { HiOutlineDocumentText } from 'react-icons/hi';
 import { MdOutlineCake } from 'react-icons/md';
 import { useIntersection } from 'react-use';
 
@@ -50,10 +48,10 @@ export const ProfileBanner = () => {
             <ProfileImage />
             <h1 className="flex flex-col gap-1">
               <span className="text-3xl font-bold">
-                Henrique Gonçalves
+                Burak Şaman
               </span>
               <code className="font-mono text-base font-medium">
-                AKA @henriqgoncalvs
+                Frontend Developer
               </code>
             </h1>
           </div>
@@ -65,34 +63,14 @@ export const ProfileBanner = () => {
             )}
           >
             <Link
-              href="/about"
-              leftIcon={<HiOutlineDocumentText />}
-              size="sm"
-            >
-              <span className="transition-all duration-300 ease-out group-hover:text-rose-200">
-                About
-              </span>
-            </Link>
-
-            <Link
-              href="/guestbook"
-              leftIcon={<GoBook />}
-              size="sm"
-            >
-              <span className="transition-all duration-300 ease-out group-hover:text-rose-200">
-                Guestbook
-              </span>
-            </Link>
-
-            <Link
-              href="https://github.com/henriqgoncalvs"
+              href="https://github.com/Buraksmn"
               external
               leftIcon={<AiFillGithub />}
               variant="icon-button"
             />
 
             <Link
-              href="https://www.linkedin.com/in/henriiqueg/"
+              href="https://www.linkedin.com/in/buraksmn0/"
               external
               leftIcon={<GrLinkedinOption />}
               variant="icon-button"
@@ -120,22 +98,17 @@ export const ProfileBanner = () => {
         >
           <div className="flex items-center gap-1">
             <FaReact size={16} className="fill-rose-100/50" />
-            <span>Front end @ PagBank</span>
+            <span>Front end @ESA Esports</span>
           </div>
 
           <div className="flex items-center gap-1">
             <BiMap size={16} color="fill-rose-100/50" />
-            <span>Pernambuco - Brazil</span>
+            <span>İstanbul | Türkiye</span>
           </div>
 
           <div className="flex items-center gap-1">
             <MdOutlineCake size={16} color="fill-rose-100/50" />
-            <span>March 20th</span>
-          </div>
-
-          <div className="flex items-center gap-1">
-            <FaDrum size={16} color="fill-rose-100/50" />
-            <span>Drummer</span>
+            <span>18 September</span>
           </div>
         </div>
       </div>

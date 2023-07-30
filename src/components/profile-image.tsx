@@ -30,7 +30,7 @@ export const ProfileImage = ({
         })}
       >
         <Image
-          src="https://avatars.githubusercontent.com/u/25696006?v=4"
+          src="https://avatars.githubusercontent.com/u/38477440?v=4"
           alt="A picture of Henrique"
           priority
           className="rounded-full"

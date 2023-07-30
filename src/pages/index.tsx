@@ -3,13 +3,11 @@ import { type ReactElement } from 'react';
 import { Layout } from '@/components/layout';
 import { ProfileBanner } from '@/ui/profile-banner';
 import { TechIUse } from '@/ui/tech-i-use';
-import { ThingsIveBuilt } from '@/ui/things-ive-built';
 
 const Home = () => {
   return (
     <>
       <ProfileBanner />
-      <ThingsIveBuilt />
       <TechIUse />
     </>
   );

@@ -2,21 +2,12 @@ import Head from 'next/head';
 
 // !STARTERCONF Change these default meta
 const defaultMeta = {
-  title:
-    'Henrique Gonçalves - Healthily obsessed with designing and coding awesome stuff.',
-  siteName: 'Henrique Gonçalves',
-  description:
-    'Healthily obsessed with designing and coding awesome stuff.',
-  /** Without additional '/' on the end, e.g. https://theodorusclarence.com */
-  url: 'https://henriqgoncalvs.com',
+  title: 'Burak Şaman',
+  siteName: 'Burak Şaman',
+  description: 'Burak Şaman Frontend Developer',
   type: 'website',
   robots: 'follow, index',
-  /**
-   * No need to be filled, will be populated with openGraph function
-   * If you wish to use a normal image, just specify the path below
-   */
-  image:
-    'https://henriqgoncalvs.com/images/opengraph-banner.png',
+  url: 'buraksmn.dev',
 };
 
 type SeoProps = {
@@ -56,11 +47,7 @@ export const Seo = (props: SeoProps) => {
         content={meta.description}
       />
       <meta property="og:title" content={meta.title} />
-      <meta
-        name="image"
-        property="og:image"
-        content={meta.image}
-      />
+      <meta name="image" property="og:image" />
       {/* Twitter */}
       <meta name="twitter:card" content="app" />
       <meta name="twitter:site" content="@henriqgoncalvs" />
@@ -70,8 +57,6 @@ export const Seo = (props: SeoProps) => {
         name="twitter:description"
         content={meta.description}
       />
-      <meta name="twitter:image" content={meta.image} />
-
       {/* Favicons */}
       {favicons.map((linkProps) => (
         <link key={linkProps.href} {...linkProps} />
