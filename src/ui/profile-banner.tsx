@@ -79,14 +79,18 @@ export const ProfileBanner = () => {
         </div>
 
         <p className="text-base">
-          Healthily obsessed with designing and coding awesome
-          stuff. Ardent in music, movies, and improving
-          consistently through learning.
+          I am a software developer who has developed and is
+          developing himself in the field of frontend and at the
+          same time learning backend and eager to develop
+          small-scale projects in this process.
         </p>
         <p className="text-base">
-          Currently interested in React environment and
-          TypeScript. Experimenting Backend. Studying Software
-          Engineer.
+          I mostly use React, React Native and Nextjs
+          technologies.
+        </p>
+        <p className="text-base">
+          I find designs from the figma community and make
+          improvements in a pixel perfect way
         </p>
 
         <div
