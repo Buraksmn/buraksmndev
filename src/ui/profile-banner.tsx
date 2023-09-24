@@ -102,7 +102,16 @@ export const ProfileBanner = () => {
         >
           <div className="flex items-center gap-1">
             <FaReact size={16} className="fill-rose-100/50" />
-            <span>Front end @ESA Esports</span>
+            <span>
+              Frontend developer{' '}
+              <Link
+                href={
+                  'https://www.linkedin.com/company/esaesports/mycompany/'
+                }
+              >
+                @ESA Esports
+              </Link>
+            </span>
           </div>
 
           <div className="flex items-center gap-1">
